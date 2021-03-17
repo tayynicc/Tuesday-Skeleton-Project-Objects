@@ -27,7 +27,18 @@ let obj3 = {
 };
 appleCounter(obj3); // => 3
 ***********************************************************************/
-
+//understand
+  //accepts and object   
+  //count how many keys an object has that includes a string of apple 
+  //return a count 
+//plan
+  // define a counter 
+  //make an array of the keys in the object 
+  //itterate over the keysarr
+    //check if the key contains "apple"
+      //increase the counter 
+    // return counter 
+//do
 function appleCounter(appleObj) {
   let aCounter = 0; 
   let keys = Object.keys(appleObj); 
